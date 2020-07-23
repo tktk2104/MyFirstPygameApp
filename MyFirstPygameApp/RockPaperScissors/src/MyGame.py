@@ -177,6 +177,9 @@ class MyGame:
         # じゃんけん前の描画処理
         if self.state == GameState.Ready:
 
+            # あいてが手を選んでいる様子の描画
+            self.screen.blit(self.getRpsPlanTexture(RpsPlan(random.randrange(1, 4))), (330, 20))
+
             # 操作説明の描画
             self.screen.blit(self.resourceLoader.texture_setsumei, (100, 330))
 
