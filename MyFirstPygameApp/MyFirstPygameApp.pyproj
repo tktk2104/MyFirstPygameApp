@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f6a78b30-82cd-446e-85d6-f23c11e094a1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Project\TicTacToe\src\main.py</StartupFile>
+    <StartupFile>Project\LightsOut\src\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Project\LightsOut\src\GameLogic\ResourceLoader.py" />
+    <Compile Include="Project\LightsOut\src\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\LightsOut\src\MyGame.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Utility\Math\Vector2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Project\RockPaperScissors\src\Enum\GameState.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Project\RockPaperScissors\src\GameLogic\KeyInput.py">
+    <Compile Include="Utility\PygameWrapper\Input\KeyInput.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Project\RockPaperScissors\src\GameLogic\ResourceLoader.py">
@@ -60,10 +67,10 @@
     <Compile Include="Project\TestCode\src\Vec2Test.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Project\TicTacToe\src\GameLogic\MouseButtonType.py">
+    <Compile Include="Utility\PygameWrapper\Input\MouseButtonType.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Project\TicTacToe\src\GameLogic\MouseInput.py">
+    <Compile Include="Utility\PygameWrapper\Input\MouseInput.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Project\TicTacToe\src\GameLogic\ResourceLoader.py">
@@ -81,6 +88,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Project\" />
+    <Folder Include="Project\LightsOut\" />
+    <Folder Include="Project\LightsOut\src\" />
+    <Folder Include="Project\LightsOut\res\" />
+    <Folder Include="Project\LightsOut\src\Enum\" />
+    <Folder Include="Project\LightsOut\src\GameLogic\" />
     <Folder Include="Project\TestCode\" />
     <Folder Include="Project\TestCode\src\" />
     <Folder Include="Project\TestCode\res\" />
@@ -96,6 +108,8 @@
     <Folder Include="Project\TicTacToe\src\" />
     <Folder Include="Project\TicTacToe\src\Enum\" />
     <Folder Include="Project\TicTacToe\src\GameLogic\" />
+    <Folder Include="Utility\PygameWrapper\" />
+    <Folder Include="Utility\PygameWrapper\Input\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

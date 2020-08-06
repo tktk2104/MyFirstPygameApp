@@ -38,6 +38,14 @@ class TicTacToe:
 
 
     #->
+    def __del__(self):
+
+        # pygameの終了
+        pygame.quit()
+    #<
+
+
+    #->
     # プレイヤーの入力
     def playerInput(self):
 
