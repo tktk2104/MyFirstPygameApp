@@ -8,9 +8,9 @@ screen = pygame.display.set_mode((640, 480))
 # ウェイトタイマの作成
 clock = pygame.time.Clock()
 # 画像の読み込み
-test0 = pygame.image.load("TestRes/test0.png")
-test1 = pygame.image.load("TestRes/test1.png")
-test2 = pygame.image.load("TestRes/test2.png")
+test0 = pygame.image.load("Project/TestCode/res/test0.png")
+test1 = pygame.image.load("Project/TestCode/res/test1.png")
+test2 = pygame.image.load("Project/TestCode/res/test2.png")
 # ゲームループ
 is_end = False
 while is_end == False:

@@ -1,4 +1,4 @@
-from Math.Vector2 import * # Vector2クラスのインポート
+from Utility.Math.Vector2 import * # Vector2クラスのインポート
 
 a = Vector2(1, 2)
 b = Vector2(2, 3)

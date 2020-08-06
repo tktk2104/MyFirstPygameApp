@@ -2,11 +2,11 @@ import pygame
 from pygame.locals import *
 import random
 
-from RockPaperScissors.src.Enum.GameState import *
-from RockPaperScissors.src.Enum.ResultType import *
-from RockPaperScissors.src.Enum.RpsPlan import *
-from RockPaperScissors.src.GameLogic.ResourceLoader import *
-from RockPaperScissors.src.GameLogic.KeyInput import *
+from Project.RockPaperScissors.src.Enum.GameState import *
+from Project.RockPaperScissors.src.Enum.ResultType import *
+from Project.RockPaperScissors.src.Enum.RpsPlan import *
+from Project.RockPaperScissors.src.GameLogic.ResourceLoader import *
+from Utility.PygameWrapper.Input.KeyInput import *
 
 # ジャンケンゲーム
 class MyGame:

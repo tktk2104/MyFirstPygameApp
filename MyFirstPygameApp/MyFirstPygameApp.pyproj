@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f6a78b30-82cd-446e-85d6-f23c11e094a1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RockPaperScissors\src\main.py</StartupFile>
+    <StartupFile>Project\TicTacToe\src\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,58 +21,81 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Math\Vector2.py">
+    <Compile Include="Utility\Math\Vector2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RockPaperScissors\Sample.py">
+    <Compile Include="Project\RockPaperScissors\src\Enum\GameState.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RockPaperScissors\src\Enum\GameState.py">
+    <Compile Include="Project\RockPaperScissors\src\GameLogic\KeyInput.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RockPaperScissors\src\GameLogic\KeyInput.py">
+    <Compile Include="Project\RockPaperScissors\src\GameLogic\ResourceLoader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RockPaperScissors\src\GameLogic\ResourceLoader.py">
+    <Compile Include="Project\RockPaperScissors\src\main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RockPaperScissors\src\main.py">
+    <Compile Include="Project\RockPaperScissors\src\MyGame.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RockPaperScissors\src\MyGame.py">
+    <Compile Include="Project\RockPaperScissors\src\Enum\ResultType.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RockPaperScissors\src\Enum\ResultType.py">
+    <Compile Include="Project\RockPaperScissors\src\Enum\RpsPlan.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RockPaperScissors\src\Enum\RpsPlan.py">
+    <Compile Include="Project\TestCode\src\ImageTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TestProgram\ImageTest.py">
+    <Compile Include="Project\TestCode\src\InitTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TestProgram\InitTest.py">
+    <Compile Include="Project\TestCode\src\KeyInputTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TestProgram\KeyInputTest.py">
+    <Compile Include="Project\TestCode\src\MouseInputTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TestProgram\MouseInputTest.py">
+    <Compile Include="Project\TestCode\src\Vec2Test.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TestProgram\Vec2Test.py">
+    <Compile Include="Project\TicTacToe\src\GameLogic\MouseButtonType.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\TicTacToe\src\GameLogic\MouseInput.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\TicTacToe\src\GameLogic\ResourceLoader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\TicTacToe\src\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\TicTacToe\src\Enum\GameState.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\TicTacToe\src\MyGame.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Math\" />
-    <Folder Include="RockPaperScissors\" />
-    <Folder Include="RockPaperScissors\src\" />
-    <Folder Include="RockPaperScissors\res\" />
-    <Folder Include="RockPaperScissors\src\Enum\" />
-    <Folder Include="RockPaperScissors\src\GameLogic\" />
-    <Folder Include="TestRes\" />
-    <Folder Include="TestProgram\" />
+    <Folder Include="Project\" />
+    <Folder Include="Project\TestCode\" />
+    <Folder Include="Project\TestCode\src\" />
+    <Folder Include="Project\TestCode\res\" />
+    <Folder Include="Utility\Math\" />
+    <Folder Include="Utility\" />
+    <Folder Include="Project\TicTacToe\" />
+    <Folder Include="Project\RockPaperScissors\" />
+    <Folder Include="Project\RockPaperScissors\src\" />
+    <Folder Include="Project\RockPaperScissors\res\" />
+    <Folder Include="Project\RockPaperScissors\src\Enum\" />
+    <Folder Include="Project\RockPaperScissors\src\GameLogic\" />
+    <Folder Include="Project\TicTacToe\res\" />
+    <Folder Include="Project\TicTacToe\src\" />
+    <Folder Include="Project\TicTacToe\src\Enum\" />
+    <Folder Include="Project\TicTacToe\src\GameLogic\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
