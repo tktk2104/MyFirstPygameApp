@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f6a78b30-82cd-446e-85d6-f23c11e094a1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Project\LightsOut\src\main.py</StartupFile>
+    <StartupFile>Project\ExcelFileOperation\src\LoadFile.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Project\CsvFileOperation\src\UpdateFile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\CsvFileOperation\src\LoadFile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\ExcelFileOperation\src\CreateFile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\ExcelFileOperation\src\LoadFile.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Project\LightsOut\src\GameLogic\ResourceLoader.py" />
     <Compile Include="Project\LightsOut\src\main.py">
       <SubType>Code</SubType>
@@ -88,11 +100,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Project\" />
+    <Folder Include="Project\CsvFileOperation\res\" />
+    <Folder Include="Project\CsvFileOperation\src\" />
+    <Folder Include="Project\ExcelFileOperation\res\" />
+    <Folder Include="Project\ExcelFileOperation\src\" />
     <Folder Include="Project\LightsOut\" />
     <Folder Include="Project\LightsOut\src\" />
     <Folder Include="Project\LightsOut\res\" />
     <Folder Include="Project\LightsOut\src\Enum\" />
     <Folder Include="Project\LightsOut\src\GameLogic\" />
+    <Folder Include="Project\ExcelFileOperation\" />
+    <Folder Include="Project\CsvFileOperation\" />
     <Folder Include="Project\TestCode\" />
     <Folder Include="Project\TestCode\src\" />
     <Folder Include="Project\TestCode\res\" />
