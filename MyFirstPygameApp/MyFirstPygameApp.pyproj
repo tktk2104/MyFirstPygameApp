@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f6a78b30-82cd-446e-85d6-f23c11e094a1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Project\ExcelFileOperation\src\LoadFile.py</StartupFile>
+    <StartupFile>Project\TextFileOperation\src\SimpleUseTextProcess.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,11 +33,20 @@
     <Compile Include="Project\ExcelFileOperation\src\LoadFile.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Project\FileConversionOperation\src\AllExcelToOneCsv.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\FileConversionOperation\src\ExcelToCsv.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Project\LightsOut\src\GameLogic\ResourceLoader.py" />
     <Compile Include="Project\LightsOut\src\main.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Project\LightsOut\src\MyGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\TextFileOperation\src\SimpleUseTextProcess.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Utility\Math\Vector2.py">
@@ -104,6 +113,8 @@
     <Folder Include="Project\CsvFileOperation\src\" />
     <Folder Include="Project\ExcelFileOperation\res\" />
     <Folder Include="Project\ExcelFileOperation\src\" />
+    <Folder Include="Project\FileConversionOperation\src\" />
+    <Folder Include="Project\FileConversionOperation\res\" />
     <Folder Include="Project\LightsOut\" />
     <Folder Include="Project\LightsOut\src\" />
     <Folder Include="Project\LightsOut\res\" />
@@ -111,9 +122,13 @@
     <Folder Include="Project\LightsOut\src\GameLogic\" />
     <Folder Include="Project\ExcelFileOperation\" />
     <Folder Include="Project\CsvFileOperation\" />
+    <Folder Include="Project\FileConversionOperation\" />
+    <Folder Include="Project\TextFileOperation\" />
     <Folder Include="Project\TestCode\" />
     <Folder Include="Project\TestCode\src\" />
     <Folder Include="Project\TestCode\res\" />
+    <Folder Include="Project\TextFileOperation\src\" />
+    <Folder Include="Project\TextFileOperation\res\" />
     <Folder Include="Utility\Math\" />
     <Folder Include="Utility\" />
     <Folder Include="Project\TicTacToe\" />
