@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f6a78b30-82cd-446e-85d6-f23c11e094a1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Project\TextFileOperation\src\SimpleUseTextProcess.py</StartupFile>
+    <StartupFile>Project\Sokoban\src\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -44,6 +44,27 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Project\LightsOut\src\MyGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\Sokoban\src\GameObject\Box\Box.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\Sokoban\src\GameObject\GameObjectManager.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\Sokoban\src\GameObject\Goal\Goal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\Sokoban\src\GameObject\Player\Player.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\Sokoban\src\GameObject\Wall\Wall.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\Sokoban\src\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\Sokoban\src\MyGame.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Project\TextFileOperation\src\SimpleUseTextProcess.py">
@@ -123,6 +144,14 @@
     <Folder Include="Project\ExcelFileOperation\" />
     <Folder Include="Project\CsvFileOperation\" />
     <Folder Include="Project\FileConversionOperation\" />
+    <Folder Include="Project\Sokoban\" />
+    <Folder Include="Project\Sokoban\src\" />
+    <Folder Include="Project\Sokoban\res\" />
+    <Folder Include="Project\Sokoban\src\GameObject\" />
+    <Folder Include="Project\Sokoban\src\GameObject\Box\" />
+    <Folder Include="Project\Sokoban\src\GameObject\Goal\" />
+    <Folder Include="Project\Sokoban\src\GameObject\Player\" />
+    <Folder Include="Project\Sokoban\src\GameObject\Wall\" />
     <Folder Include="Project\TextFileOperation\" />
     <Folder Include="Project\TestCode\" />
     <Folder Include="Project\TestCode\src\" />
@@ -143,6 +172,9 @@
     <Folder Include="Project\TicTacToe\src\GameLogic\" />
     <Folder Include="Utility\PygameWrapper\" />
     <Folder Include="Utility\PygameWrapper\Input\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Project\Sokoban\res\Map.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
