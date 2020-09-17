@@ -39,6 +39,18 @@
     <Compile Include="Project\FileConversionOperation\src\ExcelToCsv.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Project\FlappyUnko\src\Enum\GameState.py" />
+    <Compile Include="Project\FlappyUnko\src\GameObject\EarthenPipe\EarthenPipe.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\FlappyUnko\src\GameObject\Ground\Ground.py" />
+    <Compile Include="Project\FlappyUnko\src\GameObject\GameObjectManager.py" />
+    <Compile Include="Project\FlappyUnko\src\GameObject\Player\Player.py" />
+    <Compile Include="Project\FlappyUnko\src\GameObject\Score\Score.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Project\FlappyUnko\src\main.py" />
+    <Compile Include="Project\FlappyUnko\src\MyGame.py" />
     <Compile Include="Project\LightsOut\src\GameLogic\ResourceLoader.py" />
     <Compile Include="Project\LightsOut\src\main.py">
       <SubType>Code</SubType>
@@ -136,6 +148,14 @@
     <Folder Include="Project\ExcelFileOperation\src\" />
     <Folder Include="Project\FileConversionOperation\src\" />
     <Folder Include="Project\FileConversionOperation\res\" />
+    <Folder Include="Project\FlappyUnko\res\" />
+    <Folder Include="Project\FlappyUnko\src\" />
+    <Folder Include="Project\FlappyUnko\src\GameObject\" />
+    <Folder Include="Project\FlappyUnko\src\GameObject\Ground\" />
+    <Folder Include="Project\FlappyUnko\src\GameObject\EarthenPipe\" />
+    <Folder Include="Project\FlappyUnko\src\GameObject\Score\" />
+    <Folder Include="Project\FlappyUnko\src\GameObject\Player\" />
+    <Folder Include="Project\FlappyUnko\src\Enum\" />
     <Folder Include="Project\LightsOut\" />
     <Folder Include="Project\LightsOut\src\" />
     <Folder Include="Project\LightsOut\res\" />
@@ -144,6 +164,7 @@
     <Folder Include="Project\ExcelFileOperation\" />
     <Folder Include="Project\CsvFileOperation\" />
     <Folder Include="Project\FileConversionOperation\" />
+    <Folder Include="Project\FlappyUnko\" />
     <Folder Include="Project\Sokoban\" />
     <Folder Include="Project\Sokoban\src\" />
     <Folder Include="Project\Sokoban\res\" />
