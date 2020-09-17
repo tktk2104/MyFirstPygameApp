@@ -9,7 +9,7 @@ from Project.Sokoban.src.GameObject.Player.Player       import *
 from Project.Sokoban.src.GameObject.Wall.Wall           import *
 
 #<
-# ライツアウト
+# 倉庫番
 class MyGame:
 
     #<
@@ -22,7 +22,7 @@ class MyGame:
         self.isGameEnd          = False                             # ゲーム終了フラグ
         self.inputGetter        = KeyInput()                        # キー入力クラス
         self.gameObjectManager  = GameObjectManager()               # ゲームオブジェクトマネージャー
-        self.screen         = pygame.display.set_mode((800, 600))   # スクリーン
+        self.screen         = pygame.display.set_mode((480, 480))   # スクリーン
         self.clock          = pygame.time.Clock()                   # ウェイトタイマ
 
         self.wallTextureHandle   = pygame.image.load("Project/Sokoban/res/wall.png")

@@ -12,6 +12,7 @@ class Wall:
         self.textureHandle      = textureHandle
         self.posX               = posX
         self.posY               = posY
+        self.drawPriority       = 3
     #>
 
 

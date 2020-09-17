@@ -15,6 +15,7 @@ class Player:
         self.posX               = posX
         self.posY               = posY
         self.inputIntervalTimer = 0
+        self.drawPriority       = 5
     #>
 
 

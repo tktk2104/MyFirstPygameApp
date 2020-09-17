@@ -13,6 +13,7 @@ class Box:
         self.textureHandle  = textureHandle
         self.posX           = posX
         self.posY           = posY
+        self.drawPriority   = 4
     #>
 
 

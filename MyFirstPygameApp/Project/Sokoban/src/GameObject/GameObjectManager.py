@@ -15,6 +15,8 @@ class GameObjectManager:
 
         self.gameobjects.append(newObject)
 
+        self.gameobjects.sort(key = lambda x:x.drawPriority)
+
         if newObject.getName() == "Goal":
              self.goalObjects.append(newObject)
     #>

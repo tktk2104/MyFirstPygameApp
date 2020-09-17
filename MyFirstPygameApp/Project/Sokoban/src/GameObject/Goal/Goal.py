@@ -15,6 +15,7 @@ class Goal:
         self.posX               = posX
         self.posY               = posY
         self.onBox              = False
+        self.drawPriority       = 1
     #>
 
 
